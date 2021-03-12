@@ -70,6 +70,64 @@ sys.stdout.write("\r")
 sys.stdout.write(text)
 sys.stdout.flush()
 
+for x in range(len(data)):
+
+
+    old = data[x]
+
+
+    data[x] = old.upper()
+
+
+    text = "".join(data)
+
+
+    sys.stdout.write("\r")
+    sys.stdout.write(text)
+    sys.stdout.flush()
+
+
+    data[x] = old
+
+    time.sleep(0.1)
+
+
+
+text = "".join(data)
+
+sys.stdout.write("\r")
+sys.stdout.write(text)
+sys.stdout.flush()
+
+for x in range(len(data)):
+
+
+    old = data[x]
+
+
+    data[x] = old.upper()
+
+
+    text = "".join(data)
+
+
+    sys.stdout.write("\r")
+    sys.stdout.write(text)
+    sys.stdout.flush()
+
+
+    data[x] = old
+
+    time.sleep(0.1)
+
+
+
+text = "".join(data)
+
+sys.stdout.write("\r")
+sys.stdout.write(text)
+sys.stdout.flush()
+
 pass_hash = input("\n\nEnter md5 hash: ")
 
 wordlist = input("File name: ")
