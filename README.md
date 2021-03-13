@@ -2,7 +2,7 @@
 This is a MD5 password/passphrase brute force tool
 How to install:
 
-1. Do 'git clone install https://github.com/CROW31/CROWES-PASS-CRACK-TOOl.git'
+1. Do 'git clone https://github.com/CROW31/CROWES-PASS-CRACK-TOOl.git'
 2. Thats it you have it just follow the steps below to see how to use!
 
 How to use:
